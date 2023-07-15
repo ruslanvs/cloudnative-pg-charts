@@ -3,6 +3,7 @@ kind: Cluster
 metadata:
   name: cnpg-cluster
 spec:
+  imageName: ghcr.io/cloudnative-pg/postgresql:15.3
   instances: 3
   storage:
     size: 1Gi
